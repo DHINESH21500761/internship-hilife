@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css </title>
+    <script src="./script.js"></script>
+    <style>
+       p{
+           column-count: 4;
+           text-align: justify;
+           column-gap: 15px;
+           column-rule: 10px;
+           column-rule-color: chartreuse;
+           column-rule-style: double ;
+            column-gap: 40px;
+        }
+        h3 {
+  font-size:large;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 60, 0);
+  position:sticky;
+  animation-name: dhinesh;
+  animation-duration: 5s;
+}
+
+@keyframes dhinesh {
+    from{background-color: deeppink;}
+    to{background-color: mediumblue;}
+}
+input[type="file"]{
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: darkgreen;
+}
+            img{
+                width: 200px;
+                height: 200px;
+            }
+            .flex{
+            display:flex;
+            background-color: black;
+            height: 200px;
+            align-items:flex-start;   
+        }
+        .fixed{
+            font-size: 60px;
+            border-style: dotted;
+            color: deepskyblue;
+        }
+        .content{
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            height:250px;
+            width: 60px;
+            transform: rotate(30deg);
+            transition: height 5s;
+        }
+        .content:hover{
+            background-color: gold;
+            height: 150px;
+            width: 100px
+        }
+
+    </style>
+</head>
+<body>
+    <h1>  script language   </h1>
+    <ul class="list" type="none">
+    <li><i class="fas fa-bars"></i></li>
+    <li><i class="fas fa-car"></i></li>
+    <li><i class="fas fa-bus"></i></li>
+    <li><i class="fas fa-clock"></i></li>
+    <li><i class="fas fa-dog"></i></li>
+    <li><i class="fas fa-cat"></i></li>
+    </ul>
+    <h3 class="animation">dhinesh</h3> <br>
+<p>
+    W3Schools is a freemium educational website for learning coding online.[1][2] Developed in 1998, it derives its name from the World Wide Web but is not affiliated with the W3C.[3][4] W3Schools offers courses covering all aspects of web development.[5] W3Schools also publishes free HTML templates. It is run by Refsnes Data in Norway.[6][7] It has an online text editor called TryIt Editor, and readers can edit examples and run the code in a test environment.
+    This CSS tutorial contains hundreds of CSS examples.With our online editor, you can edit the CSS, and click on a button to view the result    We recommend reading this tutorial, in the sequence listed in the menuIf you have a large screen, the menu will always be present on the left.If you have a small screen, open the menu by clicking the top menu sign    
+</p>
+<img src="./fi.jpg" alt="imagea">
+    <form>
+        <input type="file">
+    </form><br><br><br>
+    <h2 class="content">HILIFE</h2> <br><br><br>
+
+    <div class="flex">
+        <div class="fixed">1</div>
+        <div class="fixed">2</div>
+        <div class="fixed">3</div>
+        <div class="fixed">4</div>
+        <div class="fixed">5</div>
+        <div class="fixed">6</div>
+        <div class="fixed">7</div>
+        <div class="fixed">8</div>
+        <div class="fixed">9</div>
+   </div><br><br><br><br>
+  
+</body>
+</html>

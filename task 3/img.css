@@ -1,0 +1,30 @@
+
+img{
+    filter:blur(10px)   
+}
+.heading{
+    background-color: greenyellow;
+    color: blanchedalmond;
+    padding: auto;
+}
+#demo2
+{
+    background-color: bisque;
+    text-align: justify;
+}
+h1{
+    font-size: 40px;
+    position: fixed;
+    display: inline;
+    opacity: 0.5;
+}
+.flex-con
+{
+   border-style: dotted ;
+   font-size: large;
+   color: white;
+   padding: 40px; 
+}
+div{
+    background-image: url("./images/baobab-tree-at-sunset--african-landscape--calm--relaxing--tr.jpg");
+}
